@@ -1,4 +1,4 @@
-'''''
+
 import nltk
 nltk.download('punkt')  # Example: download the tokenizer
 nltk.download('stopwords')  # Example: download stopwords
@@ -890,8 +890,6 @@ pickle.dump(model_DT,open(filename,'wb'))
 import pickle
 filename = 'vector.pkl'
 pickle.dump(tfidf_vector,open(filename,'wb'))
-
-'''
 
 # IMPORT LIBRARIESp
 import re
